@@ -391,13 +391,13 @@ div#intro {
     background-image: url(../images/image2.jpg);
 	background-position: left;
 	background-repeat: no-repeat;
-    top: 20px;
+    top: 10px;
     border-bottom: solid 5px;
     border-color: #08121A;
 }
 
 div#intro .intro-content {
-	padding: 100px 40px;
+	padding: 50px 40px;
 	text-align: center;
 }
 
