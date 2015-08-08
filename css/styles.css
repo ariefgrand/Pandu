@@ -230,12 +230,26 @@ li ol, li ul {
 	margin: 0 auto;
 }
 
+.head-width {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
 #container {
 	width: auto;
 	margin: 0 auto;
 }
 
-#container img{
+#container .head-width img{
+    position: absolute;
+    float: left;
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#container .width img{
     padding: 0;
     position: relative;
     z-index: 9999;
@@ -262,6 +276,8 @@ nav ul {
 	margin: 0;
 	text-align: left;
 }
+
+
 
 nav ul ul { 
 	margin: 0;
@@ -338,9 +354,15 @@ nav ul li li a:hover, nav ul li.sfHover li a:hover {
 .sf-menu, .sf-menu * {
 	list-style:		none;
 }
+
+
+
+
 .sf-menu {
 	line-height:	1.0;
 }
+
+
 .sf-menu ul {
 	position:		absolute;
 	top:			-999em;
@@ -385,6 +407,7 @@ ul.sf-menu li li li.sfHover ul {
 	left:			10em; /* match ul width */
 	top:			0;
 }
+
 
 /* intro */
 div#intro {
@@ -445,10 +468,12 @@ a.button-slider.button-reversed {
 
 a.button-slider i { padding-right: 5px; }
 
-img {
+.intro-content img {
 	max-width: 100%;
 	height: auto;
 }
+
+
 
 #body {
 	margin: 0 auto;
@@ -468,6 +493,10 @@ img {
 	width: 66%;
 }
 
+.two-column-without-right-sidebar {
+    width: 70%;
+    margin: 0 2%
+}
 .three-column {
 	width: 46%;
 	margin: 0 2%;
@@ -518,8 +547,6 @@ article .article-info a {
 .right-sidebar {
 	float: right;
 }
-
-
 
 .sidebar h4 {
 	padding-bottom: 0;
@@ -769,6 +796,8 @@ div.social-icons a {
 
 	.width { width:auto; padding-left: 10px; padding-right: 10px; }
 	
+    .head-width { width:auto; padding-left: 10px; padding-right: 10px; }
+    
 	#content, aside.sidebar { float: none; width: auto; }
 
 	#content { padding: 10px; }
@@ -817,3 +846,5 @@ div.social-icons a {
 
 
 }
+
+
